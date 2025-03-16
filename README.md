@@ -119,7 +119,7 @@ Built with ❤️ using React Router.
 │   ├───home
 │   ├───order
 │   └───support
-├───shared                      // Chứa các thành phần được **chia sẻ** trong toàn bộ hệ thống.
+├───shared                      // Chứa các thành phần được chia sẻ trong toàn bộ hệ thống.
 │   ├───components                  // Chứa các components dùng chung trong cả hệ thống.
 │   │   ├───elements                    // Các components đơn giản nhất. Ví dụ: Input, Button.
 │   │   ├───layouts                     // Các components vừa (2 thành phần trở lên). Ví dụ: SearchBar.
@@ -130,6 +130,6 @@ Built with ❤️ using React Router.
 │   ├───services                    // Triển khai các dịch vụ (gọi API).
 │   ├───types                       // Kiểu dữ liệu trong TypeScript.
 │   └───utils                       // Một số hành tiện ích.
-├───styles                          // Chứa các tập tin định dạng giao diện. Ví dụ: app.css
-└───testing                         // Chứa các tập tin kiểm thử.
+├───styles                      // Chứa các tập tin định dạng giao diện. Ví dụ: app.css
+└───testing                     // Chứa các tập tin kiểm thử.
 ```
