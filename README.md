@@ -85,3 +85,51 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ---
 
 Built with ❤️ using React Router.
+
+## Folder Structure
+```
+├app
+├───assets                      // Chứa các tập tin tĩnh.
+├───config                      // Chứa các tập tin cấu hình.
+├───features                    // Triển khai các tính năng của hệ thống.
+│   ├───account                     // Tính năng quản lý người dung.
+│   │   ├───assets
+│   │   ├───components
+│   │   ├───context
+│   │   ├───hooks
+│   │   ├───routes
+│   │   ├───services
+│   │   ├───types
+│   │   └───utils
+│   ├───auth                    // Tính năng xác thực.
+│   │   ...
+│   ├───create                  // Tính năng tạo thiết kế.
+│   │   ...
+│   ├───home                    // Hiển thị trang chủ.
+│   │   ...
+│   ├───order                   // Tính năng đặt hàng.
+│   │   ...
+│   └───support                 // Hiển thị trang hỗ trợ.
+│   │   ...
+├───providers                   // Triển khai các Provider bao bọc ứng dụng.
+├───routes                      // Chứa các trang giúp triển khai định tuyến.
+│   ├───account
+│   ├───auth
+│   ├───create
+│   ├───home
+│   ├───order
+│   └───support
+├───shared                      // Chứa các thành phần được **chia sẻ** trong toàn bộ hệ thống.
+│   ├───components                  // Chứa các components dùng chung trong cả hệ thống.
+│   │   ├───elements                    // Các components đơn giản nhất. Ví dụ: Input, Button.
+│   │   ├───layouts                     // Các components vừa (2 thành phần trở lên). Ví dụ: SearchBar.
+│   │   └───widgets                     // Các components lớn. Ví dụ: Header, Footer.
+│   ├───context                     // Chứa các ngữ cảnh (trạng thái toàn cục).
+│   ├───hooks                       // Chứa các hook tùy chỉnh.
+│   ├───lib                         // Cấu hình các thư viện cần dùng. Ví dụ: axios, react-query.
+│   ├───services                    // Triển khai các dịch vụ (gọi API).
+│   ├───types                       // Kiểu dữ liệu trong TypeScript.
+│   └───utils                       // Một số hành tiện ích.
+├───styles                          // Chứa các tập tin định dạng giao diện. Ví dụ: app.css
+└───testing                         // Chứa các tập tin kiểm thử.
+```
